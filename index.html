@@ -7,163 +7,115 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script defer src="assets/js/theme.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <div class="home">
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-        <div class="carousel-inner">
-            <div class="carousel-item carousel-img1 active">
-            </div>
-            <div class="carousel-item carousel-img2">
-            </div>
-            <div class="carousel-item carousel-img3">
-            </div>
-            <div class="carousel-caption">
-                <img src="assets/images/lsbc-id.png">
-                <h1 class="m-auto text-center signature"> Where Western Civilization literally ends - see for yourself ... </h1>
+    <nav class="navbars">
+        <ul class="navbar-nav">
+            <li class="nav-logo">
+                <a href="#" class="nav-link">
+                    <span class="link-text logo-text">
+                        PRP GI
+                    </span>
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-space-shuttle"></i>
+                    <span class="link-text">
+                        Items 1
+                    </span>
+                </a> 
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-satellite"></i>
+                    <span class="link-text">
+                        Items 2
+                    </span>
+                </a> 
+            </li> 
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-atom"></i>
+                    <span class="link-text">
+                        Items 3
+                    </span>
+                </a> 
+            </li> 
+            <li class="nav-item" id="themeButton">
+                <a href="#" class="nav-link">
+                    <i class="fas fa-sun theme-icon" id="lightIcon"></i>
+                    <i class="fas fa-moon theme-icon" id="darkIcon"></i>
+                    <span class="link-text">Themes</span>
+                </a> 
+            </li>  
+        </ul>
+    </nav>
+    <main>
+        <div class="home">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-img1 active">
+                    </div>
+                    <div class="carousel-item carousel-img2">
+                    </div>
+                    <div class="carousel-item carousel-img3">
+                    </div>
+                    <div class="carousel-caption row align-items-center">
+                        <div class="col-12 col-md-6">
+                            <p class="text-left"> <span class="title-caption"> Welcome to PRP GI! </span> <br> This server is very beautiful than the others. Many contents available here. You can Enjoy the true Roleplaying Game. Support others player and obey the rule. </p>
+                        </div>
+                        <div class="col-12 col-md-6 text-center">
+                            <p> Join with the others Now! </p>
+                            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fas fa-download"></i> Download Client</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div id="content">
-        
-    </div>
-    <div class="frame">
-        <div class="row">
-            <a class="col-6 col-md-3 frame-btn" id="sport-cars" href="#">
-                <span class="caption signature"> Fast Cars </span>
-                <img src="assets/images/fast-cars.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="economy" href="#">
-                <span class="caption signature"> Economy & Comerce </span>
-                <img src="assets/images/thriving-economy.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="healthcare" href="#">
-                <span class="caption signature"> Healthcare </span>
-                <img src="assets/images/affordable-healthcare.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="outdoors" href="#">
-                <span class="caption signature"> Great Outdoors </span>
-                <img src="assets/images/the-great-outdoors.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="air-travel" href="#">
-                <span class="caption signature"> Air Travel </span>
-                <img src="assets/images/luxury-air-travel.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="shopping" href="#">
-                <span class="caption signature"> Shopping & Glamour </span>
-                <img src="assets/images/shopping-and-glamour.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="leadership" href="#">
-                <span class="caption signature"> Leadership You Can Trust </span>
-                <img src="assets/images/leadership-you-can-trust.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="vehicle-custom" href="#">
-                <span class="caption signature"> Vehicle Customization </span>
-                <img src="assets/images/vehicle-customization.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="beach-water" href="#">
-                <span class="caption signature"> Beach & Watersports </span>
-                <img src="assets/images/beaches-and-watersports.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="neighbors" href="#">
-                <span class="caption signature"> Friendly Neighbors </span>
-                <img src="assets/images/friendly-neighbors.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="local-artist" href="#">
-                <span class="caption signature"> Local Artisans </span>
-                <img src="assets/images/local-artisans.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="country-clubs" href="#">
-                <span class="caption signature"> Country Club </span>
-                <img src="assets/images/country-clubs.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="severnity" href="#">
-                <span class="caption signature"> Severnity & Wellness </span>
-                <img src="assets/images/serenity-and-wellness.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="music-entertaint" href="#">
-                <span class="caption signature"> Music & Entertainment </span>
-                <img src="assets/images/exciting-music-and-entertainment.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="fitness" href="#">
-                <span class="caption signature"> Fitness Relaxation </span>
-                <img src="assets/images/fitness-and-relaxation.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="security" href="#">
-                <span class="caption signature"> Security </span>
-                <img src="assets/images/security-and-peace-of-mind.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="accomodation" href="#">
-                <span class="caption signature"> Accomodation </span>
-                <img src="assets/images/lovely-accommodations.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="celebrity" href="#">
-                <span class="caption signature"> Celebrity </span>
-                <img src="assets/images/sightseeing-and-celebrity.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="24h-store" href="#">
-                <span class="caption signature"> 24 Hours Stores </span>
-                <img src="assets/images/convenience-stores.jpg">
-            </a>
-            <a class="col-6 col-md-3 frame-btn" id="opportunity" href="#">
-                <span class="caption signature"> Opportunity </span>
-                <img src="assets/images/upward-mobility.jpg">
-            </a>
+        <div class="frame">
+            <div class="row">
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+                <div class="col-6 col-md-3 frame-btn" href="#">
+                    <img src="assets/images/beaches-and-watersports.jpg" class="frame-img">
+                    <span class="frame-caption signature"> Beautiful Place to Stay </span>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="footer">
-        
-    </div>
-    <!-- <script src="assets/js/jquery.pjax.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#neighbors").click(function(){
-                $("#content").load("neighbors.html #neighbors")
-                //$.get("assets/js/jquery.pjax.js")
-            });
-
-            // $("#neighbors").click(function(){
-            //     $("#content").load("neighbors2.html #friendly-neighbors")
-            //     $.get("assets/js/jquery.pjax.js")
-            // });
-
-            const btnFrame = document.querySelectorAll(".frame-btn");
-            const mainFrame = document.querySelector(".frame");
-
-            btnFrame.forEach(btnFrm => {
-                btnFrm.addEventListener("click", event => {
-                    if (btnFrm.classList.contains("active") == true) {
-                        btnFrm.classList.remove("active");
-                        mainFrame.classList.remove("active");
-                    } else {
-                        for (var item of btnFrame) {
-                            item.classList.remove('active');
-                        }
-                        btnFrm.classList.add("active");
-                        mainFrame.classList.add("active");
-                    }
-                })
-            })
-
-            $(".frame").hover(function() {
-                    $(this).addClass('hover');
-                }, function() {
-                    $( this ).removeClass('hover');
-                }
-            );    
-        });
-    </script>
-<!--     <script type="text/javascript">
-        $(document).pjax('a', '#contentsec',{
-            timeout : 9000000,
-            fragment : "#contentsec"
-        });
-    </script> -->
 </body>
 </html>
